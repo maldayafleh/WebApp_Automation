@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FwgGeIGqenQ=",
+  "dgSpecHash": "bewn0Ravug8=",
   "success": true,
   "projectFilePath": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\WebApp_Automation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\selenium.firefox.webdriver\\0.27.0\\selenium.firefox.webdriver.0.27.0.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\selenium.webdriver\\4.31.0\\selenium.webdriver.4.31.0.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\selenium.webdriver.microsoftdriver\\17.17134.0\\selenium.webdriver.microsoftdriver.17.17134.0.nupkg.sha512"
+  ],
   "logs": []
 }

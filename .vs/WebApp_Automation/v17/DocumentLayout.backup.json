@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\properties\\elementidentifiers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:properties\\elementidentifiers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ElementIdentifiers.xml",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Properties\\ElementIdentifiers.xml",
+              "RelativeDocumentMoniker": "Properties\\ElementIdentifiers.xml",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Properties\\ElementIdentifiers.xml",
+              "RelativeToolTip": "Properties\\ElementIdentifiers.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-04-18T04:54:09.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T04:46:04.857Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
