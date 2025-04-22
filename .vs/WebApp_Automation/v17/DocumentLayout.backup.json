@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\properties\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:properties\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\locators\\elementmap.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:locators\\elementmap.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\webapp_automation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:webapp_automation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\properties\\elementidentifiers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:properties\\elementidentifiers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\locators\\elementlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:locators\\elementlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\locators\\elementidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:locators\\elementidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\common\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:common\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|c:\\users\\moham\\source\\repos\\webapp_automation\\common\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22FF381-D179-43E7-803E-B2ED8DDE20B0}|WebApp_Automation.csproj|solutionrelative:common\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ElementIdentifier.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Locators\\ElementIdentifier.cs",
+              "RelativeDocumentMoniker": "Locators\\ElementIdentifier.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Locators\\ElementIdentifier.cs",
+              "RelativeToolTip": "Locators\\ElementIdentifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:02:33.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ElementLocator.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Locators\\ElementLocator.cs",
+              "RelativeDocumentMoniker": "Locators\\ElementLocator.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Locators\\ElementLocator.cs",
+              "RelativeToolTip": "Locators\\ElementLocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T03:59:17.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ElementIdentifiers.xml",
-              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Properties\\ElementIdentifiers.xml",
-              "RelativeDocumentMoniker": "Properties\\ElementIdentifiers.xml",
-              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Properties\\ElementIdentifiers.xml",
-              "RelativeToolTip": "Properties\\ElementIdentifiers.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ElementMap.xml",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Locators\\ElementMap.xml",
+              "RelativeDocumentMoniker": "Locators\\ElementMap.xml",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Locators\\ElementMap.xml",
+              "RelativeToolTip": "Locators\\ElementMap.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-04-18T04:54:09.528Z",
+              "WhenOpened": "2025-04-22T03:58:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DriverFactory.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Common\\DriverFactory.cs",
+              "RelativeDocumentMoniker": "Common\\DriverFactory.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Common\\DriverFactory.cs",
+              "RelativeToolTip": "Common\\DriverFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T03:54:00.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Common\\Config.cs",
+              "RelativeDocumentMoniker": "Common\\Config.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Common\\Config.cs",
+              "RelativeToolTip": "Common\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T03:51:26.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Settings.json",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Properties\\Settings.json",
+              "RelativeDocumentMoniker": "Properties\\Settings.json",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Properties\\Settings.json",
+              "RelativeToolTip": "Properties\\Settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T03:48:19.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApp_Automation",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\WebApp_Automation.csproj",
+              "RelativeDocumentMoniker": "WebApp_Automation.csproj",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\WebApp_Automation.csproj",
+              "RelativeToolTip": "WebApp_Automation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T03:45:26.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\moham\\source\\repos\\WebApp_Automation\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T04:46:04.857Z",
               "EditorCaption": ""

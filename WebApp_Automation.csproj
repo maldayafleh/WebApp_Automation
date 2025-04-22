@@ -14,8 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\" />
-    <Folder Include="Library\" />
+    <Folder Include="Lib\" />
+    <Folder Include="Menus\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Test Cases\" />
   </ItemGroup>
 
 </Project>
