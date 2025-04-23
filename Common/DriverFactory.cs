@@ -2,48 +2,64 @@
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
+using WebApp_Automation.Common;
 
 namespace WebApp_Automation.Common
 {
     public static class DriverFactory
     {
-        public static IWebDriver GetDriver()
-        {
-            IWebDriver driver;
+        private static IWebDriver _driver;
 
-            switch (Config.Browser)
+        public static void InitDriver()
+        {
+            if (_driver != null) return;
+
+            string browser = Config.Settings.Browser;
+
+            switch (browser)
             {
                 case "edge":
                     var edgeOptions = new EdgeOptions();
-                    if (Config.Headless)
+                    if (Config.Settings.Headless)
                         edgeOptions.AddArgument("headless");
-
-                    driver = new EdgeDriver(edgeOptions);
+                    _driver = new EdgeDriver(edgeOptions);
                     break;
 
                 case "chrome":
                     var chromeOptions = new ChromeOptions();
-                    if (Config.Headless)
+                    if (Config.Settings.Headless)
                         chromeOptions.AddArgument("headless");
-
-                    driver = new ChromeDriver(chromeOptions);
+                    _driver = new ChromeDriver(chromeOptions);
                     break;
 
                 case "firefox":
                     var firefoxOptions = new FirefoxOptions();
-                    if (Config.Headless)
+                    if (Config.Settings.Headless)
                         firefoxOptions.AddArgument("--headless");
-
-                    driver = new FirefoxDriver(firefoxOptions);
+                    _driver = new FirefoxDriver(firefoxOptions);
                     break;
 
                 default:
-                    throw new Exception("Unsupported browser in config.json");
+                    throw new Exception($"Unsupported browser '{browser}' in config.json.");
             }
 
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(Config.ImplicitWait);
-            driver.Manage().Window.Maximize();
-            return driver;
+            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(Config.Settings.ImplicitWait);
+            _driver.Manage().Window.Maximize();
+            _driver.Navigate().GoToUrl(Config.Settings.AppUrl); // Go to base URL from config
+        }
+
+        public static IWebDriver GetDriver()
+        {
+            if (_driver == null)
+                throw new Exception("WebDriver is not initialized. Call InitDriver() first.");
+
+            return _driver;
+        }
+
+        public static void QuitDriver()
+        {
+            _driver?.Quit();
+            _driver = null;
         }
     }
 }

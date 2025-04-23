@@ -1,0 +1,7 @@
+{
+  "AppUrl": "http://automationpractice.com/index.php",
+  "Browser": "edge",
+  "ImplicitWait": 10,
+  "ScreenshotPath": "Resources/Screenshots",
+  "Headless": false
+}

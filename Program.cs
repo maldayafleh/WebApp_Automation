@@ -1,6 +1,8 @@
-﻿using OpenQA.Selenium;
+﻿/*sing OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
 using System;
+using WebApp_Automation.Common;
+using WebApp_Automation.Test_Cases;
 
 namespace WebApp_Automation
 {
@@ -8,17 +10,26 @@ namespace WebApp_Automation
     {
         static void Main(string[] args)
         {
-            IWebDriver driver = new EdgeDriver();
-            driver.Navigate().GoToUrl("http://automationpractice.com/index.php");
-            Console.WriteLine("Title: " + driver.Title);
+            try
+            {
+                //Initialize the WebDriver from DriverFactory
+                DriverFactory.InitDriver();
 
-            // Locate the element using the copied CSS selector
-            var link = driver.FindElement(By.CssSelector("body > center > center > font > a > img"));
-            link.Click();
+                //Run a test case manually
+                var test = new BasicNavigationTest();
+                test.Setup();
+                test.ClickOnImageLink();
 
-            Thread.Sleep(2000);
-            driver.Quit();
-
+                Console.WriteLine("Test Finished");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error occured: {ex.Message}");
+            }
+            finally
+            {
+                DriverFactory.QuitDriver();
+            }
         }
     }
-}
+}*/
